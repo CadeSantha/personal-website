@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./game.js"></script>
+  <head>
+    <title>??? | Cade Santha</title>
+  </head>
+  <body>
+        <div>
+          <img id="bridge" height="100%" width="100%"src="./photos/bridge.jpg">
+          <div id="quote">
+              <span>"You can beat the robot... It's just Rock, Paper, Scissors..." <br>-Cade Santha</span>
+              </div>
+          <div id="navBar">
+          <table>
+            <tr>
+                <th id="name"><i>Cade Santha |</i></th>
+                <th id="heading"><a href="./index.html">Home</a></th>
+                <th id="space"></th>
+                <th id="heading"><a href="./about.html">About</a></th>
+                <th id="space"></th>
+                <th id="heading"><a href="./contact.html">Contact</a></th>
+                <th id="space"></th>
+                <th id="currentHeading"><a href="./game.html">???</a></th>
+           </tr>
+        </table>
+        </div>
+        </div>
+        <div>
+        <table align="center">
+          <tr>
+            <th id="game"><button onclick="playGame('1')">Rock</button></th>
+            <th id="game"><button onclick="playGame('2')">Paper</button></th>
+            <th id="game"><button onclick="playGame('3')">Scissors</button></th>
+          </tr>
+        </table>
+        <table id="gameTableNames" align="center">
+          <tr>
+              <th><img id="userPic" src="./photos/blank.png"></th>
+              <th><img id="computerPic" src="./photos/blank.png"></th>
+          </tr>
+          <tr>
+            <td id="game">You</th>
+            <td id="game">Computer</th>
+          </tr>
+        </table>
+        </div>
+        <table id="game" align="center">
+        <tr>
+          <th><p id="output">Press a Button!</p></th>
+        </tr>
+        </table>

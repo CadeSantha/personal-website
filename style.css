@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*Navigation Bar Modifications*/
+
+#navBar {
+    background: #17252a;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+#name {
+    padding: 0px;
+    font-family: 'bookman';
+    font-size: 2.2vw;
+    color: white;
+    font-weight: bolder;
+}
+
+#heading,
+#currentHeading {
+    padding: 5px 10px;
+    font-family: 'courier New';
+    font-weight: bolder;
+    font-size: 2vw;
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#currentHeading {
+    text-decoration: underline;
+}
+
+#space {
+    padding: 0px;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+
+#header1 {
+    background-image: url("./photos/ariel.PNG");
+}
+
+#header2 {
+    background-image: url("./photos/shoe.jpg");
+}
+
+#header3 {
+    background-image: url("./photos/desk.jpg")
+}
+
+#header4{
+    background-image: url("./photos/bridge.jpg");
+}
+
+#header5{
+    background-image: url("./photos/paintedLadies.jpg");
+}
+
+#header6{
+    background-image: url("./photos/fisher.jpg");
+}
+
+#header7{
+    background-image: url("./photos/facebookHeader.jpg");
+}
+
+#header8{
+    background-image: url("./photos/instagramHeader.jpg");
+}
+
+#header9{
+    background-image: url("./photos/twitterHeader.jpg");
+}
+
+#header10{
+    background-image: url("./photos/linkedinHeader.jpg");
+}
+
+#header11{
+    background-image: url("./photos/gmailHeader.jpg");
+}
+
+.headerQuote {
+    position: relative;
+    top: 90%;
+    transform: translate(0, -50%);
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'palatino';
+    padding-left: 10px;
+    float: left;
+    color: white;
+    font-size: 6vw;
+    text-shadow: 3px 3px black;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+#headerQuote1 {
+    left: 48%;
+}
+
+#headerQuote2 {
+    left: 2%;
+}
+
+#headerQuote3 {
+    left: 53%;
+}
+
+#headerQuote4 {
+    left: 80%;
+}
+
+#headerQuote5 {
+    left: 75%;
+}
+
+#headerQuote6 {
+    left: 8%;
+    transform: translate(0, -80%);
+}
+
+#headerQuote7 {
+    left: 4%;
+    transform: translate(0, -80%);
+}
+
+#headerQuote8 {
+    left: 40%;
+    transform: translate(0, -80%);
+}
+
+#headerQuote9 {
+    left: 4%;
+    transform: translate(0, -80%);
+}
+
+#headerQuote10 {
+    left: 15%;
+    transform: translate(0, -80%);
+}
+
+#headerQuote6, #headerQuote7, #headerQuote8, #headerQuote9, #headerQuote10 {
+    color:#17252a !important;
+    text-shadow: none;
+}
+
+
+.descriptionText {
+    height: 58%;
+    font-family: 'Georgia';
+    font-size: 30px;
+    background-color: #17252a;
+    color: white;
+    margin-top: 0px;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    transition: 2s;
+}
+
+#descriptionTextBox {
+    margin: 0px 10px 5px 10px;
+    word-spacing: 2px;
+}
+
+.column60W {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+.column40W {
+    width: 40%;
+    float: left;
+}
+
+#selfie {
+    height: 100%;
+    width: 100%;
+}
+
+#universityHall {
+    height: 100%;
+    width: 100%;
+}
+
+.resume {
+    background-color: #17252a;
+    margin: 0 10% 2% 10%;
+    padding: 3vw 0 0 0;
+    overflow: hidden;
+}
+
+.resumePiece {
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    float: left;
+}
+
+.resumeButton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin: 0;
+    float: left;
+    border-right: 8px solid #17252a;
+    border-left: 8px solid #17252a;
+}
+
+.resumePiece:hover {
+    opacity: .8;
+    transition: opacity .5s;
+}
+
+#piece1,
+#piece2,
+#piece3,
+#piece4,
+#piece5,
+#piece6,
+#piece7,
+#piece8,
+#piece9,
+#piece10,
+#piece11,
+#piece12,
+#piece13 {
+    padding: 5px 30px 5px 30px;
+    height: 60%;
+    font-family: 'Georgia';
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+#piece1 {
+    display: none;
+}
+
+#piece2 {
+    display: none;
+}
+
+#piece3 {
+    display: none;
+}
+
+#piece4 {
+    display: none;
+}
+
+#piece5 {
+    display: none;
+}
+
+#piece6 {
+    display: none;
+}
+
+#piece7 {
+    display: none;
+}
+
+#piece8 {
+    display: none;
+}
+
+#piece9 {
+    display: none;
+}
+
+#piece10 {
+    display: none;
+}
+
+#piece11 {
+    display: none;
+}
+
+#piece12 {
+    display: none;
+}
+
+#piece13 {
+    display: none;
+}
+
+#piece1 {
+    display: none;
+}
+
+#resumeBody {
+    background-color: #17252ae7;
+}
+
+#indexText{
+    overflow: hidden;
+}
